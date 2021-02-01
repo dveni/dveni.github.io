@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>social networks | Dveni</title>
+    <link>https://dveni.github.io/tag/social-networks/</link>
+      <atom:link href="https://dveni.github.io/tag/social-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>social networks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Sep 2020 23:09:19 +0200</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>social networks</title>
+      <link>https://dveni.github.io/tag/social-networks/</link>
+    </image>
+    
+    <item>
+      <title>¿Qué me gusta en Twitter?</title>
+      <link>https://dveni.github.io/bitacora/liked-tweets-classifier/</link>
+      <pubDate>Fri, 11 Sep 2020 23:09:19 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/liked-tweets-classifier/</guid>
+      <description>&lt;p&gt;Una idea que me lleva rondando algún tiempo, Lo-Fi beats en los aurículares y puede que la noche de viernes menos entretenida del 2020, que ya es decir. Al menos de momento. Hace tiempo que mi lista de me gustas se convirtió en una mezcla de memes, videos graciosos, pelis/series que quiero ver, cosas que quiero leer, recursos interesantes y proyectos relacionados con la inteligencia artificial. Vamos, un cajón donde meto un poco de todo lo que creo que me puede interesar en algún momento pero que realmente muy pocas veces revisito. Y ya, ya sé que se pueden guardar tweets en listas o hay aplicaciones estilo Pocket, que ya uso, para guardar y clasificar este tipo de cosas. Pero, ¿por qué hacer dos o tres clicks pudiendo dar uno solo y que se guarden y clasifiquen solos?&lt;/p&gt;
+&lt;p&gt;Revisando un poco por encima, no he encontrado ninguna herramienta que haga algo parecido. Tampoco he buscado mucho, no te voy a engañar. Pero esto supone un ejercicio interesante. Hay multitud de trabajos académicos que basan su análisis en la clasificación automática de tweets. Sin ir más lejos, mi TFG. Pero oye, que yo quiero un servicio que me separe la lista de tweets a los que doy favoritos en pelis, artículos, chorradas, IA o cualquier otro grupo temático que aparezca. Y no me voy a dedicar a anotar un dataset a mano, así que me interesan métodos de aprendizaje no supervisado. Para ello he de explorar que posibilidades hay, aunque usar el wrapper para python de Stanford&amp;rsquo;s Topic Modelling Toolbox, Topbox, es un buen punto de partida. Seguramente también sea conveniente detectar previamente el idioma de los tweets, ya que seguramente aparecerán en inglés y español.&lt;/p&gt;
+&lt;p&gt;Obviamente un trabajo así no se hace en una sola noche, así que me conformaré con empezar a pelearme con tweetpy para conseguir mis me gustas en streaming. Ire actualizando sobre la marcha.&lt;/p&gt;
+&lt;p&gt;EDIT: 2 horas más tarde&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Las ideas en la cabeza siempre son muy bonitas, pero la realidad acostumra a ser otra. Lo más parecido que he encontrado en la Twitter API para seguir el streaming de mis tweets es 
+&lt;a href=&#34;https://developer.twitter.com/en/docs/twitter-api/v1/tweets/sample-realtime/overview/streaming-likes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;esto&lt;/a&gt;, y es de pago. De todas formas, ¿hace falta estar constantemente incluyendo los tweets a los que doy like? Pues diría que no, simplemente con coger todos los actuales, y coger una vez al día los últimos 20 (no doy tanto like pero who knows) sería suficiente. Por lo que puedo usar la Twitter API para ello y meter algún tipo de temporizador que active el retrieval una vez al día. Vamos dando forma a la idea, ya tengo acceso a mis likes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

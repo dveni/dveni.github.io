@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python | Dveni</title>
+    <link>https://dveni.github.io/tag/python/</link>
+      <atom:link href="https://dveni.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <description>Python</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 23 Jan 2020 20:18:42 +0100</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Python</title>
+      <link>https://dveni.github.io/tag/python/</link>
+    </image>
+    
+    <item>
+      <title>Social media data mining for fast-food prevalence characterization</title>
+      <link>https://dveni.github.io/project/tfg/</link>
+      <pubDate>Thu, 23 Jan 2020 20:18:42 +0100</pubDate>
+      <guid>https://dveni.github.io/project/tfg/</guid>
+      <description>&lt;p&gt;This project was carried out as my Final Year Project.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;An escalating global epidemic of overweight and obesity is taking over many parts of the world. Among several factors that influence this, dietary habits are a key element due to they have a profound impact on human life, health, and well-being. In addition, several chronic diseases have been linked to overweight and obesity, which have been found to be positively associated with eating fast-food. Thus, the study of dietary habits is important for both cultural understandings and for monitoring public health. Traditionally, large-scale dietary studies of food consumption used questionnaires and food diaries to keep track of the daily activities of their participants, which can be intrusive and expensive to conduct. In last years social networks have become a valuable source of information to assess the habits, opinions, and decisions taken by their users, so researches are examining ways to use social data to address health-related issues. Framed in a collaboration project part of the Food4Health European program, our work aims to determine if it is possible to characterize fast-food consumption through the in- formation of the messages posted on Twitter. For this purpose, we have made a classifier using machine learning techniques, available with Scikit-learn Python library, capable of classifying tweets from users referring to fast-food. In addition, we have enriched our system with the analysis of the images attached to tweets using both image classification and object detection models. They are based on convolutional neural networks focused on object recognition, and transfer learning techniques have been used to use pre-trained models in our objective, to recognize food. Also, sentiment and emotion analysis have been performed on tweets in order to assess the sentiments and emotions related to fast-food. This system has been tested in the Spanish case, assessing the fast-food prevalence in the country along with image and sentiment analysis to provide health-related information.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

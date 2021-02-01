@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unity | Dveni</title>
+    <link>https://dveni.github.io/tag/unity/</link>
+      <atom:link href="https://dveni.github.io/tag/unity/index.xml" rel="self" type="application/rss+xml" />
+    <description>unity</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Aug 2020 00:42:54 +0200</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>unity</title>
+      <link>https://dveni.github.io/tag/unity/</link>
+    </image>
+    
+    <item>
+      <title>Nia Mondo</title>
+      <link>https://dveni.github.io/project/nia-mondo/</link>
+      <pubDate>Wed, 19 Aug 2020 00:42:54 +0200</pubDate>
+      <guid>https://dveni.github.io/project/nia-mondo/</guid>
+      <description>&lt;p&gt;Nia Mondo was developed as part of the 
+&lt;a href=&#34;https://summerofcode.es/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Summer of Code&lt;/a&gt;, a two-week online program where students with different backgrounds developed four open-source software projects framed in the &lt;strong&gt;Sustainable Development Goals&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Our team was formed by five students and a coach, where most of us (including myself) had &lt;strong&gt;no previous videogame development experience&lt;/strong&gt;. However, we developed a demo version using Unity and design software. It was a great experience since I have always wanted to try creating a videogame and, also, I had the opportunity to meet awesome people!&lt;/p&gt;
+&lt;p&gt;This 2D platformer is a proof of concept of a videogame where &lt;strong&gt;your decisions matter&lt;/strong&gt; to achieve your objective: fight climate change! Depending on your initial choice, it will affect the playability and you will have a different ending. Okay, maybe it won&amp;rsquo;t be in the next Game Awards, but who cares? we created it!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wanna try it? You can play directly in your browser in the 
+&lt;a href=&#34;https://osoc-es.github.io/nia-mondo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Project Website&lt;/a&gt;. Check it out!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Dveni</title>
+    <link>https://dveni.github.io/publication_types/</link>
+      <atom:link href="https://dveni.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Publication_types</title>
+      <link>https://dveni.github.io/publication_types/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dveni</title>
+    <link>https://dveni.github.io/</link>
+      <atom:link href="https://dveni.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dveni</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 20:21:21 +0100</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Dveni</title>
+      <link>https://dveni.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Application deployed on Openstack</title>
+      <link>https://dveni.github.io/project/openstack/</link>
+      <pubDate>Fri, 15 Jan 2021 20:21:21 +0100</pubDate>
+      <guid>https://dveni.github.io/project/openstack/</guid>
+      <description>&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Raúl Torres García&lt;/li&gt;
+&lt;li&gt;Daniel Vera Nieto&lt;/li&gt;
+&lt;li&gt;Salomón Fereres Benzaquen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Development of scripts, templates and other configuration files needed to deploy automatically on an Openstack cloud using Heat orchestration services of a scalable application consisting of web servers, database, balancers and firewall.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Three web servers hosting the web application supporting the scalable service. scalable service.&lt;/li&gt;
+&lt;li&gt;A database designed to store application data. Note: it is not necessary for the application to use the database, but it will be necessary to demonstrate that the database is accessible from the servers.&lt;/li&gt;
+&lt;li&gt;An administration server that will be used for service management tasks and will be the only one accessible from the outside via SSH.&lt;/li&gt;
+&lt;li&gt;A firewall that filters traffic from the outside (north-south) and only allows access to the web servers by the clients, as well as SSH traffic to the management server by the service administrators. administrators to the management server.&lt;/li&gt;
+&lt;li&gt;A load balancer that distributes the traffic between the different web servers.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dapp using Smart Contracts</title>
+      <link>https://dveni.github.io/project/asignatura-smartcontract/</link>
+      <pubDate>Sun, 10 Jan 2021 09:36:14 +0100</pubDate>
+      <guid>https://dveni.github.io/project/asignatura-smartcontract/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;A distributed application that uses a Smart Contract deployed on Rinkeby Ethereum network. Built using React &amp;amp; TruffleSuite (truffle, drizzle, ganache, truffle-teams).&lt;/p&gt;
+&lt;p&gt;The dapp has been deployed here: &lt;a href=&#34;https://dapp-asignatura.herokuapp.com/&#34;&gt;https://dapp-asignatura.herokuapp.com/&lt;/a&gt; (you&amp;rsquo;ll be prompted to login with Metamask).&lt;/p&gt;
+&lt;p&gt;It uses the contract Asignatura (see 
+&lt;a href=&#34;https://gist.github.com/dveni/c2cbfe62ae7476fa8f490e8f5924f980&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;), deployed on Rinkeby network: &lt;a href=&#34;https://rinkeby.etherscan.io/address/0xc3d22cd6fb0aab36bae82a8f99d2a5cfb22ee9e3&#34;&gt;https://rinkeby.etherscan.io/address/0xc3d22cd6fb0aab36bae82a8f99d2a5cfb22ee9e3&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Management of a course: create assignments and exams, grade students, etc.&lt;/li&gt;
+&lt;li&gt;Automatic student auto-registration.&lt;/li&gt;
+&lt;li&gt;Visualize students grades in each evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Distributed Hash Table</title>
+      <link>https://dveni.github.io/project/dht/</link>
+      <pubDate>Mon, 23 Nov 2020 20:17:44 +0100</pubDate>
+      <guid>https://dveni.github.io/project/dht/</guid>
+      <description>&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Raúl Torres García&lt;/li&gt;
+&lt;li&gt;Daniel Vera Nieto&lt;/li&gt;
+&lt;li&gt;Salomón Fereres&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Distributed application managing a Distributed Hash Table with a global table divided into partitions, storing each partition in different servers of the distributed application. Each server manages a partition of the global table, which holds a range of values in hash function space (the size of the range is the same for each node). The servers have information that relates the partition of the data to the IP address of the server that manages the corresponding table.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Availability, consistency and fault tolerance properties are based on Zookeeper.&lt;/li&gt;
+&lt;li&gt;When a server is down, a new server is created to replace it and allow the application to continue to function. Updated tables are sent to the new server.&lt;/li&gt;
+&lt;li&gt;An objectively ugly basic GUI.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Zero-Shot Likes Clasiffication</title>
+      <link>https://dveni.github.io/bitacora/zero-shot-likes-clf/</link>
+      <pubDate>Wed, 07 Oct 2020 12:40:15 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/zero-shot-likes-clf/</guid>
+      <description>&lt;p&gt;Tras un par de semanas con este proyecto a medias (es lo que tiene el inicio de curso y de todo un poco), vuelvo a ponerme manos a la obra con él. Investigando cómo llevar a cabo la clasificación de mis tweets sin necesidad de tener datos etiquetados, llegué a 
+&lt;a href=&#34;https://joeddav.github.io/blog/2020/05/29/ZSL.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;este&lt;/a&gt; artículo de Joe Davison de mayo. En él, detalla distintos enfoques de problemas similares al mío, entre los que se encuentra el que voy a utilizar: &amp;ldquo;Classification as Natural Language Inference&amp;rdquo;. Este método considera dos oraciones, &amp;ldquo;premisa&amp;rdquo; e &amp;ldquo;hipótesis&amp;rdquo;, con la tarea de determinar si la hipótesis es correcta (confirmación) o falsa (contradicción) dadas las premisas.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Premise&lt;/th&gt;
+&lt;th&gt;Label&lt;/th&gt;
+&lt;th&gt;Hypothesis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A man inspects the uniform of a figure in some East Asian country.&lt;/td&gt;
+&lt;td&gt;contradiction&lt;/td&gt;
+&lt;td&gt;The man is sleeping.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;An older and younger man smiling.&lt;/td&gt;
+&lt;td&gt;neutral&lt;/td&gt;
+&lt;td&gt;Two men are smiling and laughing at the cats playing on the floor.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A soccer game with multiple males playing.&lt;/td&gt;
+&lt;td&gt;entailment&lt;/td&gt;
+&lt;td&gt;Some men are playing a sport.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;sub&gt;Ejemplo de &lt;a href=&#34;http://nlpprogress.com/english/natural_language_inference.html&#34;&gt;http://nlpprogress.com/english/natural_language_inference.html&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;La idea es tratar cada tweet (oración) como &amp;ldquo;premisa&amp;rdquo; y convertir cada posible etiqueta en &amp;ldquo;hipótesis&amp;rdquo;. Por lo tanto, si el modelo predice que la hipótesis &amp;ldquo;confirma&amp;rdquo; la premisa consideramos esa etiqueta como verdadera. Por suerte, el artículo te redirigía a una demo donde pude estar jugando un poco y me di cuenta de varias cosas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cómo mola 
+&lt;a href=&#34;https://www.streamlit.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Funciona con tweets muy bien (tampoco era tanta sorpresa)&lt;/li&gt;
+&lt;li&gt;Funciona con tweets en español (esto si que me sorprendió)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Jugando con la demo parecía que iba a tener todavía más fácil la tarea que me había planteado. Además, me dejaba varios caminos que llamaban mi curiosidad: ¿qué son los transformers y por qué funcionan tan bien? ¿Cómo se usa streamlit?. Y la verdad, es que encontrarme con este artículo me ha facilitado la vida.&lt;/p&gt;
+&lt;h3 id=&#34;pero&#34;&gt;Pero&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Me estoy dando cuenta de que no todo era tan sencillo como me pensaba. Ya tengo una forma de obtener mis likes y tengo una forma de clasificarlos, pero &lt;strong&gt;¿cómo despliego esto?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Esta es una pregunta para la que aún no tengo respuesta, aunque desplegar la aplicación de Streamlit sobre Heroku podría ser una buena opción. Puede que también sea una buena oportunidad para sacar Docker de la teoría y utilizarlo en la práctica.&lt;/p&gt;
+&lt;p&gt;De momento, estoy dando forma a la app de Streamlit y he tenido algunos problemillas con que PyTorch &lt;strong&gt;se cargue todas las librerías que había importado anteriormente&lt;/strong&gt;. Pero seguimos trabajando.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scrum &amp; Trello</title>
+      <link>https://dveni.github.io/slides/trello-scrum/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://dveni.github.io/slides/trello-scrum/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./images/slides-scrum_trello-header.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;a-gentle-introduction-to-scrum-agile-framework-and-trello&#34;&gt;A gentle introduction to Scrum agile framework and Trello&lt;/h2&gt;
+&lt;p&gt;2020&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Secretario 17/18
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Hackathon as a Service Project
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Topic del (fallido) What a code!&lt;br&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetivos&lt;/li&gt;
+&lt;li&gt;Scrum&lt;/li&gt;
+&lt;li&gt;Trello&lt;/li&gt;
+&lt;li&gt;Poll&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;objetivos&#34;&gt;Objetivos&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Definir una metodología de trabajo para el KM Team
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Difundir el uso de Trello entre los habitantes de la Tierra
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;scrum&#34;&gt;¿Scrum?&lt;/h2&gt;
+&lt;p&gt;Proceso ágil&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Origen en el desarrollo de sw&lt;/li&gt;
+&lt;li&gt;Desarrollo iterativo e incremental&lt;/li&gt;
+&lt;li&gt;Requisitos y soluciones evolucionan con el tiempo a través de la colabarión entre los distintos stakeholders del proyecto&lt;/li&gt;
+&lt;li&gt;Adaptativo, flexible&lt;/li&gt;
+&lt;li&gt;Time-boxed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/What-is-Agile-Software-Development_hudb1a1400d36a0bf86439fbb44f4fa63f_206594_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/What-is-Agile-Software-Development_hudb1a1400d36a0bf86439fbb44f4fa63f_206594_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;25%&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;características&#34;&gt;Características&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Requisitos en forma de lista priorizada&lt;/li&gt;
+&lt;li&gt;Ciclos cortos y fijos&lt;/li&gt;
+&lt;li&gt;Feedback&lt;/li&gt;
+&lt;li&gt;Equipo auto-organizado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scrum-team&#34;&gt;Scrum team&lt;/h3&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/what-is-a-scrum-team_hu5751b20e24b6aa69aa0cc1b5b9e65a4b_34309_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/what-is-a-scrum-team_hu5751b20e24b6aa69aa0cc1b5b9e65a4b_34309_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;750&#34; height=&#34;332&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Product owner: Visión del producto. Nexo de unión con stakeholders. Decide características del producto.&lt;/li&gt;
+&lt;li&gt;Scrum master: Ayuda a aplicar las prácticas Scrum. Responsable del proceso.&lt;/li&gt;
+&lt;li&gt;Estos dos roles, aunque no es habitual, seguramente serán llevados por el coordi de KM.&lt;/li&gt;
+&lt;li&gt;Dev team: Responsables del diseño, implementación y verificación del sistema. Equipo pequeño.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scrum-process&#34;&gt;Scrum process&lt;/h3&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/scrum_hu4df95e660e4e7c872fc11e041890fdfa_2234508_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/scrum_hu4df95e660e4e7c872fc11e041890fdfa_2234508_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Product backlog: Product owner descompone el producto en una lista de características priorizadas en el Product backlog&lt;/li&gt;
+&lt;li&gt;Características de los distintos proyectos. Wiki: Información organización de eventos accesible, documentos organización, etc.&lt;/li&gt;
+&lt;li&gt;Sprint planning: Selección de características a realizar en el sprint. Resultado: Sprint backlog. Estimación de tiempo y esfuerzo: fibonnaci.&lt;/li&gt;
+&lt;li&gt;Sprint backlog: Características divididas en tareas. Información de organización: Selección de eventos, recogida documentación, estructuración, etc.&lt;/li&gt;
+&lt;li&gt;Sprint: 1-4 semanas fijo, sin cambio de objetivos. Daily scrum: Revisar, feedback y planificar.&lt;/li&gt;
+&lt;li&gt;Final del sprint: incremento del producto.&lt;/li&gt;
+&lt;li&gt;Sprint review: Presentación y demo del producto al cliente. Recogida de feedback. Cliente: LBG.&lt;/li&gt;
+&lt;li&gt;Sprint retrospective: Revisión del sprint, qué mejorar etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/trello-logo-blue_hu747c52a8c1c77e46b16dc7282f9eb93e_93760_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/trello-logo-blue_hu747c52a8c1c77e46b16dc7282f9eb93e_93760_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://trello.com/b/ZqN99gGN/agile-sprint-board&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scrum Board&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;poll&#34;&gt;Poll&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.strawpoll.me/21088915&#34;&gt;https://www.strawpoll.me/21088915&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Avances en el Tweet Classification project</title>
+      <link>https://dveni.github.io/bitacora/avances-tweet-clf/</link>
+      <pubDate>Sat, 12 Sep 2020 23:17:41 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/avances-tweet-clf/</guid>
+      <description>&lt;p&gt;No sé si es la vuelta de las vacaciones o que estoy empanado (puede que un poco de ambas), pero que Twitter haya actualizado su API me está dando más dolores de cabeza de los que pensaba. Toca hacerse a la nueva API. Por desgracia, parece que tweetpy sigue utilizando la API anterior que, aunque funciona actualmente, será sustituida por la nueva en el futuro. Y no quiero tener que actualizar una aplicación sencilla a los dos meses.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Una hora más tarde: Cambio de opinión, pelearme con la nueva API de twitter para realizar la autenticación y el resto a mano está &lt;em&gt;out of scope&lt;/em&gt;. Cuando tweepy actualice su librería será un buen momento para actualizar este pequeño proyecto si por entonces aún lo creo necesario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acabamos el día (noche) y ya tengo guardados en un dataframe todos los tweets a los que he dado like. Los próximos pasos serás 1) construir el clasificador, 2) actualizar la lista de tweets según vaya dando like a nuevos tweets, y 3) publicar la app usando streamlit o algo similar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Qué me gusta en Twitter?</title>
+      <link>https://dveni.github.io/bitacora/liked-tweets-classifier/</link>
+      <pubDate>Fri, 11 Sep 2020 23:09:19 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/liked-tweets-classifier/</guid>
+      <description>&lt;p&gt;Una idea que me lleva rondando algún tiempo, Lo-Fi beats en los aurículares y puede que la noche de viernes menos entretenida del 2020, que ya es decir. Al menos de momento. Hace tiempo que mi lista de me gustas se convirtió en una mezcla de memes, videos graciosos, pelis/series que quiero ver, cosas que quiero leer, recursos interesantes y proyectos relacionados con la inteligencia artificial. Vamos, un cajón donde meto un poco de todo lo que creo que me puede interesar en algún momento pero que realmente muy pocas veces revisito. Y ya, ya sé que se pueden guardar tweets en listas o hay aplicaciones estilo Pocket, que ya uso, para guardar y clasificar este tipo de cosas. Pero, ¿por qué hacer dos o tres clicks pudiendo dar uno solo y que se guarden y clasifiquen solos?&lt;/p&gt;
+&lt;p&gt;Revisando un poco por encima, no he encontrado ninguna herramienta que haga algo parecido. Tampoco he buscado mucho, no te voy a engañar. Pero esto supone un ejercicio interesante. Hay multitud de trabajos académicos que basan su análisis en la clasificación automática de tweets. Sin ir más lejos, mi TFG. Pero oye, que yo quiero un servicio que me separe la lista de tweets a los que doy favoritos en pelis, artículos, chorradas, IA o cualquier otro grupo temático que aparezca. Y no me voy a dedicar a anotar un dataset a mano, así que me interesan métodos de aprendizaje no supervisado. Para ello he de explorar que posibilidades hay, aunque usar el wrapper para python de Stanford&amp;rsquo;s Topic Modelling Toolbox, Topbox, es un buen punto de partida. Seguramente también sea conveniente detectar previamente el idioma de los tweets, ya que seguramente aparecerán en inglés y español.&lt;/p&gt;
+&lt;p&gt;Obviamente un trabajo así no se hace en una sola noche, así que me conformaré con empezar a pelearme con tweetpy para conseguir mis me gustas en streaming. Ire actualizando sobre la marcha.&lt;/p&gt;
+&lt;p&gt;EDIT: 2 horas más tarde&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Las ideas en la cabeza siempre son muy bonitas, pero la realidad acostumra a ser otra. Lo más parecido que he encontrado en la Twitter API para seguir el streaming de mis tweets es 
+&lt;a href=&#34;https://developer.twitter.com/en/docs/twitter-api/v1/tweets/sample-realtime/overview/streaming-likes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;esto&lt;/a&gt;, y es de pago. De todas formas, ¿hace falta estar constantemente incluyendo los tweets a los que doy like? Pues diría que no, simplemente con coger todos los actuales, y coger una vez al día los últimos 20 (no doy tanto like pero who knows) sería suficiente. Por lo que puedo usar la Twitter API para ello y meter algún tipo de temporizador que active el retrieval una vez al día. Vamos dando forma a la idea, ya tengo acceso a mis likes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nia Mondo</title>
+      <link>https://dveni.github.io/project/nia-mondo/</link>
+      <pubDate>Wed, 19 Aug 2020 00:42:54 +0200</pubDate>
+      <guid>https://dveni.github.io/project/nia-mondo/</guid>
+      <description>&lt;p&gt;Nia Mondo was developed as part of the 
+&lt;a href=&#34;https://summerofcode.es/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Open Summer of Code&lt;/a&gt;, a two-week online program where students with different backgrounds developed four open-source software projects framed in the &lt;strong&gt;Sustainable Development Goals&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Our team was formed by five students and a coach, where most of us (including myself) had &lt;strong&gt;no previous videogame development experience&lt;/strong&gt;. However, we developed a demo version using Unity and design software. It was a great experience since I have always wanted to try creating a videogame and, also, I had the opportunity to meet awesome people!&lt;/p&gt;
+&lt;p&gt;This 2D platformer is a proof of concept of a videogame where &lt;strong&gt;your decisions matter&lt;/strong&gt; to achieve your objective: fight climate change! Depending on your initial choice, it will affect the playability and you will have a different ending. Okay, maybe it won&amp;rsquo;t be in the next Game Awards, but who cares? we created it!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wanna try it? You can play directly in your browser in the 
+&lt;a href=&#34;https://osoc-es.github.io/nia-mondo/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Official Project Website&lt;/a&gt;. Check it out!&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Soltando amarras</title>
+      <link>https://dveni.github.io/bitacora/first-entry/</link>
+      <pubDate>Tue, 18 Aug 2020 00:04:40 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/first-entry/</guid>
+      <description>&lt;p&gt;&lt;em&gt;[&amp;hellip;] y habiéndome sobrado a mí las noticias, a través de muchos libros leídos y diversas personas que con su Señoría solían platicar de las grandes y estupendas cosas del Mar Océano, determiné, con amable licencia de la Majestad cesárea, y del antepuesto mi señor, de experimentar el ir en busca de tales cosas: así pudiesen proporcionarme a mí mismo satisfacción y me alumbraran
+también renombre en la posteridad.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Con estas palabras justificaba Antonio Pigafetta su decisión de embarcarse junto a Magallanes en lo que se convertiría en la primera circunnavegación del planeta. Y me parece la cita perfecta para la primera entrada de este nuevo proyecto, que no sé a dónde me va a llevar, pero espero descubrir muchas cosas por el camino. Inicio esta página personal como una forma de mostrar no solo mi trabajo, si no la trayectoria que he ido siguiendo para llegar al día de hoy por si puede servir de algo para alguien o, al menos, poder reírme un poco dentro de algunos años.&lt;/p&gt;
+&lt;p&gt;Escribiré aquí sobre los proyectos que he realizado y los que haré, así cómo posts sobre cosas que vaya aprendiendo y crea que pueden ser útiles para alguien más. A excepción de este cuaderno, estará todo escrito en inglés, ya que resulta la manera más sencilla de llegar al mayor número de personas posibles.&lt;/p&gt;
+&lt;p&gt;Y poco más que añadir, que esto no deja de ser el primer post de prueba.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;PD.: La lectura de el cuaderno de bitácora de Pigafetta (o al menos, su adaptación) es bastante curiosa, detalla los encuentros con otras civilizaciones y tribus, cómo ubicarse siguiendo la posición de la luna y una brújula o curiosidades como lo famoso y desconocido (al menos para mí) que es el río Betis. Podéis encontrarlo 
+&lt;a href=&#34;http://redmundialmagallanica.org/wp-content/uploads/2015/09/PIGAFETTA-Primer-viaje-alrededor-del-mundo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;.&lt;/sub&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social media data mining for fast-food prevalence characterization</title>
+      <link>https://dveni.github.io/project/tfg/</link>
+      <pubDate>Thu, 23 Jan 2020 20:18:42 +0100</pubDate>
+      <guid>https://dveni.github.io/project/tfg/</guid>
+      <description>&lt;p&gt;This project was carried out as my Final Year Project.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;An escalating global epidemic of overweight and obesity is taking over many parts of the world. Among several factors that influence this, dietary habits are a key element due to they have a profound impact on human life, health, and well-being. In addition, several chronic diseases have been linked to overweight and obesity, which have been found to be positively associated with eating fast-food. Thus, the study of dietary habits is important for both cultural understandings and for monitoring public health. Traditionally, large-scale dietary studies of food consumption used questionnaires and food diaries to keep track of the daily activities of their participants, which can be intrusive and expensive to conduct. In last years social networks have become a valuable source of information to assess the habits, opinions, and decisions taken by their users, so researches are examining ways to use social data to address health-related issues. Framed in a collaboration project part of the Food4Health European program, our work aims to determine if it is possible to characterize fast-food consumption through the in- formation of the messages posted on Twitter. For this purpose, we have made a classifier using machine learning techniques, available with Scikit-learn Python library, capable of classifying tweets from users referring to fast-food. In addition, we have enriched our system with the analysis of the images attached to tweets using both image classification and object detection models. They are based on convolutional neural networks focused on object recognition, and transfer learning techniques have been used to use pre-trained models in our objective, to recognize food. Also, sentiment and emotion analysis have been performed on tweets in order to assess the sentiments and emotions related to fast-food. This system has been tested in the Spanish case, assessing the fast-food prevalence in the country along with image and sentiment analysis to provide health-related information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Crypto mining traffic identification</title>
+      <link>https://dveni.github.io/project/crypto-traffic/</link>
+      <pubDate>Mon, 01 Jul 2019 20:19:12 +0100</pubDate>
+      <guid>https://dveni.github.io/project/crypto-traffic/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Internet trafﬁc classiﬁcation has become more important with the rapid growth of
+crypto-currency use and crypto-mining tools, which have lead to the exposure to new threats
+to end-users and companies. Most of existing approaches to perform this task use predeﬁned
+features extracted by an expert in order to classify network trafﬁc. In contrast, in this study,
+we propose a deep learning based approach, framed in a bigger research project named Deep
+Augur, which aims to facilitate and speed up the characterisation of network ﬂows by means
+of advanced Deep Neural Network techniques.
+Our proposed scheme can detect the trafﬁc generated by an open-sourced crypto-miner, xmr-
+stak, and a worm used for crypto-jacking, madominer, both of them used to mine Monero. The features that describe the captured
+ﬂows are generated with Tstat tool. This features allow our model to detect when a trafﬁc ﬂow
+belongs to crypto-mining trafﬁc. The model achieved a recall of nearly 100% and a precision
+of about 98%.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://dveni.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://dveni.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quiz Application</title>
+      <link>https://dveni.github.io/project/quiz/</link>
+      <pubDate>Tue, 01 May 2018 20:20:56 +0100</pubDate>
+      <guid>https://dveni.github.io/project/quiz/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Web application to play quizzes created by the community. Built in Javascript using Nodejs as back-end and deployed in Heroku.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User login system to create new quizzes&lt;/li&gt;
+&lt;li&gt;Quizz creation forms&lt;/li&gt;
+&lt;li&gt;Ranking of users&lt;/li&gt;
+&lt;li&gt;Play random quizzes feature&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pi Music Box</title>
+      <link>https://dveni.github.io/project/pimusicbox/</link>
+      <pubDate>Tue, 01 May 2018 20:20:33 +0100</pubDate>
+      <guid>https://dveni.github.io/project/pimusicbox/</guid>
+      <description>&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Eduardo Quiroga&lt;/li&gt;
+&lt;li&gt;Daniel Vera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;This project consists of the design and implementation of a system that reproduces melodies based on a microcontroller, which in our case is a Raspberry Pi 3. The system must reproduce a melody associated with an RFID card when the card is inserted into the system, stopping the reproduction of the melody when the card is removed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

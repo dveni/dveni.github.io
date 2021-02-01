@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cuaderno de bitácora | Dveni</title>
+    <link>https://dveni.github.io/bitacora/</link>
+      <atom:link href="https://dveni.github.io/bitacora/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cuaderno de bitácora</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 12:40:15 +0200</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Cuaderno de bitácora</title>
+      <link>https://dveni.github.io/bitacora/</link>
+    </image>
+    
+    <item>
+      <title>Zero-Shot Likes Clasiffication</title>
+      <link>https://dveni.github.io/bitacora/zero-shot-likes-clf/</link>
+      <pubDate>Wed, 07 Oct 2020 12:40:15 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/zero-shot-likes-clf/</guid>
+      <description>&lt;p&gt;Tras un par de semanas con este proyecto a medias (es lo que tiene el inicio de curso y de todo un poco), vuelvo a ponerme manos a la obra con él. Investigando cómo llevar a cabo la clasificación de mis tweets sin necesidad de tener datos etiquetados, llegué a 
+&lt;a href=&#34;https://joeddav.github.io/blog/2020/05/29/ZSL.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;este&lt;/a&gt; artículo de Joe Davison de mayo. En él, detalla distintos enfoques de problemas similares al mío, entre los que se encuentra el que voy a utilizar: &amp;ldquo;Classification as Natural Language Inference&amp;rdquo;. Este método considera dos oraciones, &amp;ldquo;premisa&amp;rdquo; e &amp;ldquo;hipótesis&amp;rdquo;, con la tarea de determinar si la hipótesis es correcta (confirmación) o falsa (contradicción) dadas las premisas.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Premise&lt;/th&gt;
+&lt;th&gt;Label&lt;/th&gt;
+&lt;th&gt;Hypothesis&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A man inspects the uniform of a figure in some East Asian country.&lt;/td&gt;
+&lt;td&gt;contradiction&lt;/td&gt;
+&lt;td&gt;The man is sleeping.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;An older and younger man smiling.&lt;/td&gt;
+&lt;td&gt;neutral&lt;/td&gt;
+&lt;td&gt;Two men are smiling and laughing at the cats playing on the floor.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A soccer game with multiple males playing.&lt;/td&gt;
+&lt;td&gt;entailment&lt;/td&gt;
+&lt;td&gt;Some men are playing a sport.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;sub&gt;Ejemplo de &lt;a href=&#34;http://nlpprogress.com/english/natural_language_inference.html&#34;&gt;http://nlpprogress.com/english/natural_language_inference.html&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;
+&lt;p&gt;La idea es tratar cada tweet (oración) como &amp;ldquo;premisa&amp;rdquo; y convertir cada posible etiqueta en &amp;ldquo;hipótesis&amp;rdquo;. Por lo tanto, si el modelo predice que la hipótesis &amp;ldquo;confirma&amp;rdquo; la premisa consideramos esa etiqueta como verdadera. Por suerte, el artículo te redirigía a una demo donde pude estar jugando un poco y me di cuenta de varias cosas:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cómo mola 
+&lt;a href=&#34;https://www.streamlit.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Streamlit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Funciona con tweets muy bien (tampoco era tanta sorpresa)&lt;/li&gt;
+&lt;li&gt;Funciona con tweets en español (esto si que me sorprendió)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Jugando con la demo parecía que iba a tener todavía más fácil la tarea que me había planteado. Además, me dejaba varios caminos que llamaban mi curiosidad: ¿qué son los transformers y por qué funcionan tan bien? ¿Cómo se usa streamlit?. Y la verdad, es que encontrarme con este artículo me ha facilitado la vida.&lt;/p&gt;
+&lt;h3 id=&#34;pero&#34;&gt;Pero&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Me estoy dando cuenta de que no todo era tan sencillo como me pensaba. Ya tengo una forma de obtener mis likes y tengo una forma de clasificarlos, pero &lt;strong&gt;¿cómo despliego esto?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Esta es una pregunta para la que aún no tengo respuesta, aunque desplegar la aplicación de Streamlit sobre Heroku podría ser una buena opción. Puede que también sea una buena oportunidad para sacar Docker de la teoría y utilizarlo en la práctica.&lt;/p&gt;
+&lt;p&gt;De momento, estoy dando forma a la app de Streamlit y he tenido algunos problemillas con que PyTorch &lt;strong&gt;se cargue todas las librerías que había importado anteriormente&lt;/strong&gt;. Pero seguimos trabajando.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Avances en el Tweet Classification project</title>
+      <link>https://dveni.github.io/bitacora/avances-tweet-clf/</link>
+      <pubDate>Sat, 12 Sep 2020 23:17:41 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/avances-tweet-clf/</guid>
+      <description>&lt;p&gt;No sé si es la vuelta de las vacaciones o que estoy empanado (puede que un poco de ambas), pero que Twitter haya actualizado su API me está dando más dolores de cabeza de los que pensaba. Toca hacerse a la nueva API. Por desgracia, parece que tweetpy sigue utilizando la API anterior que, aunque funciona actualmente, será sustituida por la nueva en el futuro. Y no quiero tener que actualizar una aplicación sencilla a los dos meses.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Una hora más tarde: Cambio de opinión, pelearme con la nueva API de twitter para realizar la autenticación y el resto a mano está &lt;em&gt;out of scope&lt;/em&gt;. Cuando tweepy actualice su librería será un buen momento para actualizar este pequeño proyecto si por entonces aún lo creo necesario.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Acabamos el día (noche) y ya tengo guardados en un dataframe todos los tweets a los que he dado like. Los próximos pasos serás 1) construir el clasificador, 2) actualizar la lista de tweets según vaya dando like a nuevos tweets, y 3) publicar la app usando streamlit o algo similar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¿Qué me gusta en Twitter?</title>
+      <link>https://dveni.github.io/bitacora/liked-tweets-classifier/</link>
+      <pubDate>Fri, 11 Sep 2020 23:09:19 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/liked-tweets-classifier/</guid>
+      <description>&lt;p&gt;Una idea que me lleva rondando algún tiempo, Lo-Fi beats en los aurículares y puede que la noche de viernes menos entretenida del 2020, que ya es decir. Al menos de momento. Hace tiempo que mi lista de me gustas se convirtió en una mezcla de memes, videos graciosos, pelis/series que quiero ver, cosas que quiero leer, recursos interesantes y proyectos relacionados con la inteligencia artificial. Vamos, un cajón donde meto un poco de todo lo que creo que me puede interesar en algún momento pero que realmente muy pocas veces revisito. Y ya, ya sé que se pueden guardar tweets en listas o hay aplicaciones estilo Pocket, que ya uso, para guardar y clasificar este tipo de cosas. Pero, ¿por qué hacer dos o tres clicks pudiendo dar uno solo y que se guarden y clasifiquen solos?&lt;/p&gt;
+&lt;p&gt;Revisando un poco por encima, no he encontrado ninguna herramienta que haga algo parecido. Tampoco he buscado mucho, no te voy a engañar. Pero esto supone un ejercicio interesante. Hay multitud de trabajos académicos que basan su análisis en la clasificación automática de tweets. Sin ir más lejos, mi TFG. Pero oye, que yo quiero un servicio que me separe la lista de tweets a los que doy favoritos en pelis, artículos, chorradas, IA o cualquier otro grupo temático que aparezca. Y no me voy a dedicar a anotar un dataset a mano, así que me interesan métodos de aprendizaje no supervisado. Para ello he de explorar que posibilidades hay, aunque usar el wrapper para python de Stanford&amp;rsquo;s Topic Modelling Toolbox, Topbox, es un buen punto de partida. Seguramente también sea conveniente detectar previamente el idioma de los tweets, ya que seguramente aparecerán en inglés y español.&lt;/p&gt;
+&lt;p&gt;Obviamente un trabajo así no se hace en una sola noche, así que me conformaré con empezar a pelearme con tweetpy para conseguir mis me gustas en streaming. Ire actualizando sobre la marcha.&lt;/p&gt;
+&lt;p&gt;EDIT: 2 horas más tarde&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Las ideas en la cabeza siempre son muy bonitas, pero la realidad acostumra a ser otra. Lo más parecido que he encontrado en la Twitter API para seguir el streaming de mis tweets es 
+&lt;a href=&#34;https://developer.twitter.com/en/docs/twitter-api/v1/tweets/sample-realtime/overview/streaming-likes&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;esto&lt;/a&gt;, y es de pago. De todas formas, ¿hace falta estar constantemente incluyendo los tweets a los que doy like? Pues diría que no, simplemente con coger todos los actuales, y coger una vez al día los últimos 20 (no doy tanto like pero who knows) sería suficiente. Por lo que puedo usar la Twitter API para ello y meter algún tipo de temporizador que active el retrieval una vez al día. Vamos dando forma a la idea, ya tengo acceso a mis likes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Soltando amarras</title>
+      <link>https://dveni.github.io/bitacora/first-entry/</link>
+      <pubDate>Tue, 18 Aug 2020 00:04:40 +0200</pubDate>
+      <guid>https://dveni.github.io/bitacora/first-entry/</guid>
+      <description>&lt;p&gt;&lt;em&gt;[&amp;hellip;] y habiéndome sobrado a mí las noticias, a través de muchos libros leídos y diversas personas que con su Señoría solían platicar de las grandes y estupendas cosas del Mar Océano, determiné, con amable licencia de la Majestad cesárea, y del antepuesto mi señor, de experimentar el ir en busca de tales cosas: así pudiesen proporcionarme a mí mismo satisfacción y me alumbraran
+también renombre en la posteridad.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Con estas palabras justificaba Antonio Pigafetta su decisión de embarcarse junto a Magallanes en lo que se convertiría en la primera circunnavegación del planeta. Y me parece la cita perfecta para la primera entrada de este nuevo proyecto, que no sé a dónde me va a llevar, pero espero descubrir muchas cosas por el camino. Inicio esta página personal como una forma de mostrar no solo mi trabajo, si no la trayectoria que he ido siguiendo para llegar al día de hoy por si puede servir de algo para alguien o, al menos, poder reírme un poco dentro de algunos años.&lt;/p&gt;
+&lt;p&gt;Escribiré aquí sobre los proyectos que he realizado y los que haré, así cómo posts sobre cosas que vaya aprendiendo y crea que pueden ser útiles para alguien más. A excepción de este cuaderno, estará todo escrito en inglés, ya que resulta la manera más sencilla de llegar al mayor número de personas posibles.&lt;/p&gt;
+&lt;p&gt;Y poco más que añadir, que esto no deja de ser el primer post de prueba.&lt;/p&gt;
+&lt;p&gt;&lt;sub&gt;PD.: La lectura de el cuaderno de bitácora de Pigafetta (o al menos, su adaptación) es bastante curiosa, detalla los encuentros con otras civilizaciones y tribus, cómo ubicarse siguiendo la posición de la luna y una brújula o curiosidades como lo famoso y desconocido (al menos para mí) que es el río Betis. Podéis encontrarlo 
+&lt;a href=&#34;http://redmundialmagallanica.org/wp-content/uploads/2015/09/PIGAFETTA-Primer-viaje-alrededor-del-mundo.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;.&lt;/sub&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

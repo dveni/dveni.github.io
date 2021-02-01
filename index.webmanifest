@@ -1,0 +1,18 @@
+{
+  "name": "Dveni",
+  "short_name": "Dveni",
+  "lang": "en-us",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
+  "icons": [{
+    "src": "/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}

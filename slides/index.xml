@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Dveni</title>
+    <link>https://dveni.github.io/slides/</link>
+      <atom:link href="https://dveni.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Scrum &amp; Trello</title>
+      <link>https://dveni.github.io/slides/trello-scrum/</link>
+      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://dveni.github.io/slides/trello-scrum/</guid>
+      <description>
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;./images/slides-scrum_trello-header.png&#34;
+  &gt;
+
+&lt;h2 id=&#34;a-gentle-introduction-to-scrum-agile-framework-and-trello&#34;&gt;A gentle introduction to Scrum agile framework and Trello&lt;/h2&gt;
+&lt;p&gt;2020&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Secretario 17/18
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Hackathon as a Service Project
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Topic del (fallido) What a code!&lt;br&gt;
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;agenda&#34;&gt;Agenda&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Objetivos&lt;/li&gt;
+&lt;li&gt;Scrum&lt;/li&gt;
+&lt;li&gt;Trello&lt;/li&gt;
+&lt;li&gt;Poll&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;objetivos&#34;&gt;Objetivos&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Definir una metodología de trabajo para el KM Team
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+Difundir el uso de Trello entre los habitantes de la Tierra
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;scrum&#34;&gt;¿Scrum?&lt;/h2&gt;
+&lt;p&gt;Proceso ágil&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Origen en el desarrollo de sw&lt;/li&gt;
+&lt;li&gt;Desarrollo iterativo e incremental&lt;/li&gt;
+&lt;li&gt;Requisitos y soluciones evolucionan con el tiempo a través de la colabarión entre los distintos stakeholders del proyecto&lt;/li&gt;
+&lt;li&gt;Adaptativo, flexible&lt;/li&gt;
+&lt;li&gt;Time-boxed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/What-is-Agile-Software-Development_hudb1a1400d36a0bf86439fbb44f4fa63f_206594_2000x2000_fit_q90_lanczos.jpg&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/What-is-Agile-Software-Development_hudb1a1400d36a0bf86439fbb44f4fa63f_206594_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;35%&#34; height=&#34;25%&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;h3 id=&#34;características&#34;&gt;Características&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Requisitos en forma de lista priorizada&lt;/li&gt;
+&lt;li&gt;Ciclos cortos y fijos&lt;/li&gt;
+&lt;li&gt;Feedback&lt;/li&gt;
+&lt;li&gt;Equipo auto-organizado&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scrum-team&#34;&gt;Scrum team&lt;/h3&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/what-is-a-scrum-team_hu5751b20e24b6aa69aa0cc1b5b9e65a4b_34309_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/what-is-a-scrum-team_hu5751b20e24b6aa69aa0cc1b5b9e65a4b_34309_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;750&#34; height=&#34;332&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Product owner: Visión del producto. Nexo de unión con stakeholders. Decide características del producto.&lt;/li&gt;
+&lt;li&gt;Scrum master: Ayuda a aplicar las prácticas Scrum. Responsable del proceso.&lt;/li&gt;
+&lt;li&gt;Estos dos roles, aunque no es habitual, seguramente serán llevados por el coordi de KM.&lt;/li&gt;
+&lt;li&gt;Dev team: Responsables del diseño, implementación y verificación del sistema. Equipo pequeño.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;scrum-process&#34;&gt;Scrum process&lt;/h3&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/scrum_hu4df95e660e4e7c872fc11e041890fdfa_2234508_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/scrum_hu4df95e660e4e7c872fc11e041890fdfa_2234508_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Product backlog: Product owner descompone el producto en una lista de características priorizadas en el Product backlog&lt;/li&gt;
+&lt;li&gt;Características de los distintos proyectos. Wiki: Información organización de eventos accesible, documentos organización, etc.&lt;/li&gt;
+&lt;li&gt;Sprint planning: Selección de características a realizar en el sprint. Resultado: Sprint backlog. Estimación de tiempo y esfuerzo: fibonnaci.&lt;/li&gt;
+&lt;li&gt;Sprint backlog: Características divididas en tareas. Información de organización: Selección de eventos, recogida documentación, estructuración, etc.&lt;/li&gt;
+&lt;li&gt;Sprint: 1-4 semanas fijo, sin cambio de objetivos. Daily scrum: Revisar, feedback y planificar.&lt;/li&gt;
+&lt;li&gt;Final del sprint: incremento del producto.&lt;/li&gt;
+&lt;li&gt;Sprint review: Presentación y demo del producto al cliente. Recogida de feedback. Cliente: LBG.&lt;/li&gt;
+&lt;li&gt;Sprint retrospective: Revisión del sprint, qué mejorar etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://dveni.github.io/slides/trello-scrum/images/trello-logo-blue_hu747c52a8c1c77e46b16dc7282f9eb93e_93760_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://dveni.github.io/slides/trello-scrum/images/trello-logo-blue_hu747c52a8c1c77e46b16dc7282f9eb93e_93760_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;100%&#34; height=&#34;100%&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;
+&lt;a href=&#34;https://trello.com/b/ZqN99gGN/agile-sprint-board&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scrum Board&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;poll&#34;&gt;Poll&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.strawpoll.me/21088915&#34;&gt;https://www.strawpoll.me/21088915&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://dveni.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://dveni.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+&lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+Three
+&lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/media/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

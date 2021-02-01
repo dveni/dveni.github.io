@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi | Dveni</title>
+    <link>https://dveni.github.io/tag/raspberry-pi/</link>
+      <atom:link href="https://dveni.github.io/tag/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raspberry Pi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 20:20:33 +0100</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Raspberry Pi</title>
+      <link>https://dveni.github.io/tag/raspberry-pi/</link>
+    </image>
+    
+    <item>
+      <title>Pi Music Box</title>
+      <link>https://dveni.github.io/project/pimusicbox/</link>
+      <pubDate>Tue, 01 May 2018 20:20:33 +0100</pubDate>
+      <guid>https://dveni.github.io/project/pimusicbox/</guid>
+      <description>&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Eduardo Quiroga&lt;/li&gt;
+&lt;li&gt;Daniel Vera&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;This project consists of the design and implementation of a system that reproduces melodies based on a microcontroller, which in our case is a Raspberry Pi 3. The system must reproduce a melody associated with an RFID card when the card is inserted into the system, stopping the reproduction of the melody when the card is removed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

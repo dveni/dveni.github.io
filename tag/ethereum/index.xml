@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethereum | Dveni</title>
+    <link>https://dveni.github.io/tag/ethereum/</link>
+      <atom:link href="https://dveni.github.io/tag/ethereum/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ethereum</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Jan 2021 09:36:14 +0100</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Ethereum</title>
+      <link>https://dveni.github.io/tag/ethereum/</link>
+    </image>
+    
+    <item>
+      <title>Dapp using Smart Contracts</title>
+      <link>https://dveni.github.io/project/asignatura-smartcontract/</link>
+      <pubDate>Sun, 10 Jan 2021 09:36:14 +0100</pubDate>
+      <guid>https://dveni.github.io/project/asignatura-smartcontract/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;A distributed application that uses a Smart Contract deployed on Rinkeby Ethereum network. Built using React &amp;amp; TruffleSuite (truffle, drizzle, ganache, truffle-teams).&lt;/p&gt;
+&lt;p&gt;The dapp has been deployed here: &lt;a href=&#34;https://dapp-asignatura.herokuapp.com/&#34;&gt;https://dapp-asignatura.herokuapp.com/&lt;/a&gt; (you&amp;rsquo;ll be prompted to login with Metamask).&lt;/p&gt;
+&lt;p&gt;It uses the contract Asignatura (see 
+&lt;a href=&#34;https://gist.github.com/dveni/c2cbfe62ae7476fa8f490e8f5924f980&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;), deployed on Rinkeby network: &lt;a href=&#34;https://rinkeby.etherscan.io/address/0xc3d22cd6fb0aab36bae82a8f99d2a5cfb22ee9e3&#34;&gt;https://rinkeby.etherscan.io/address/0xc3d22cd6fb0aab36bae82a8f99d2a5cfb22ee9e3&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Management of a course: create assignments and exams, grade students, etc.&lt;/li&gt;
+&lt;li&gt;Automatic student auto-registration.&lt;/li&gt;
+&lt;li&gt;Visualize students grades in each evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

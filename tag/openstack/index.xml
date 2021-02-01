@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Openstack | Dveni</title>
+    <link>https://dveni.github.io/tag/openstack/</link>
+      <atom:link href="https://dveni.github.io/tag/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <description>Openstack</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 20:21:21 +0100</lastBuildDate>
+    <image>
+      <url>https://dveni.github.io/images/icon_hua1e761c50709ce7914d01717f2e814d0_37876_512x512_fill_lanczos_center_2.png</url>
+      <title>Openstack</title>
+      <link>https://dveni.github.io/tag/openstack/</link>
+    </image>
+    
+    <item>
+      <title>Application deployed on Openstack</title>
+      <link>https://dveni.github.io/project/openstack/</link>
+      <pubDate>Fri, 15 Jan 2021 20:21:21 +0100</pubDate>
+      <guid>https://dveni.github.io/project/openstack/</guid>
+      <description>&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Raúl Torres García&lt;/li&gt;
+&lt;li&gt;Daniel Vera Nieto&lt;/li&gt;
+&lt;li&gt;Salomón Fereres Benzaquen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Development of scripts, templates and other configuration files needed to deploy automatically on an Openstack cloud using Heat orchestration services of a scalable application consisting of web servers, database, balancers and firewall.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Three web servers hosting the web application supporting the scalable service. scalable service.&lt;/li&gt;
+&lt;li&gt;A database designed to store application data. Note: it is not necessary for the application to use the database, but it will be necessary to demonstrate that the database is accessible from the servers.&lt;/li&gt;
+&lt;li&gt;An administration server that will be used for service management tasks and will be the only one accessible from the outside via SSH.&lt;/li&gt;
+&lt;li&gt;A firewall that filters traffic from the outside (north-south) and only allows access to the web servers by the clients, as well as SSH traffic to the management server by the service administrators. administrators to the management server.&lt;/li&gt;
+&lt;li&gt;A load balancer that distributes the traffic between the different web servers.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
